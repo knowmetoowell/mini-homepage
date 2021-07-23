@@ -1,0 +1,206 @@
+
+.visit{
+  color:red;
+}
+.container{
+  display: flex;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+.column1{
+  flex:0.35;
+  display: flex;
+  flex-direction: column;
+
+}
+.column1_row1{
+  margin-left: 5px;
+  flex:0.07;
+  font-size: 15px;
+}
+.column1_row2{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.column1_row2_row1{
+  flex:0.3;
+  
+}
+.column1_row2_row2{
+  padding-left: 10px;
+  padding-top: 20px;
+  flex: 1;
+  line-height: 25px;
+}
+.column1_row2_row3{
+  flex:0.08;
+  font-size:15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.profile-dropdown{
+  flex:0;
+  border: 1px solid #c9d4da;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  position: relative;
+
+}
+.dropdown-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.triangle-down{
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 5px solid #838383;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.profile-dropdown:hover > .dropdown-content {
+  display: block;
+}
+.dropdown-content > a {
+  display: inline-block;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #f1f1f1;
+}
+
+/*컬럼2* (메인 화면) */
+.column2{
+  flex: 0.97;
+  display: flex;
+  flex-direction:column;
+}
+.column2_row1{
+  display: flex;
+  margin-left: 5px;
+  flex:0.07;
+  
+}
+.column2_row1_row1{
+  font-family: 'Noto Sans KR', sans-serif;
+  flex:1;
+}
+
+.column2_row1_row2{
+  flex:1;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.column2_row2{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  padding: 15px;
+  
+}
+
+/*컬럼 3 (홈 다이어리 사진첩 방명록 부분)*/
+.column3{ 
+  flex: 0.15;
+  flex-direction:column;
+}
+.menu{
+  margin-top: 50px;
+}
+.menu>a{
+  display: block;
+  background: rgb(34, 212, 34);
+  color: white;
+
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+
+  margin-top: 5px;
+  margin-right: 2px;
+  padding-left: 4px;
+
+  font-size: 18px;
+  text-decoration: none;
+  
+}
+.menu-btn > a:hover{
+  background:rgb(206, 45, 206);
+}
+.column4{
+  flex:0.05;
+}
+
+body{
+  background-image: url("../static/images/pattern.png");
+  background-size: 100px;
+  background-color: rgb(155, 153, 153);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+  
+.bookcover {
+  background-color: #b4d1da;
+  border-radius: 9px;
+  border: 1px solid #738186;
+  width: 960px;
+  height: 660px;
+  margin: 100px auto;
+  position: relative;
+}
+  
+.bookdot{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 2px dashed white;
+  border-radius: 9px;
+}
+.page{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  background-color: rgb(226, 223, 223);
+  border-radius: 9px;
+}
+.column1_row2_row1>img{
+  margin-left: 19px;
+  margin-top: 19px
+}
+.box{
+  border: 1px solid white;
+  border-radius: 9px;
+  background-color: white;
+}

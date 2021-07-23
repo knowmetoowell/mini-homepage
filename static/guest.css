@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+	width: 15px;
+	background-color: #eeeeee;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #cdcdcd;	
+}
+
+::-webkit-scrollbar-button {
+  background-color: #cdcdcd ;
+  width: 5px;
+  height: 10px;
+}
+
+.guest_main_container{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    padding: 15px;
+    overflow: auto;
+}
+.guest_container{
+    display:flex;
+    flex-direction:column;
+    
+    padding:10px;
+    
+}
+.guest_name{
+    background-color: #eeeeee;
+    font-size:16px;
+
+    
+    justify-content: space-between;
+    flex:0.1;
+    font-family: 'Nanum Pen Script', cursive;
+    line-height: 28px;
+    border-top:1px #cdcdcd solid;
+    border-bottom:1px #cdcdcd dotted;
+    padding-left:50px;
+
+}
+.guest_name>span{
+    font-size: 20px;
+}
+.guest_contents{
+    display: flex;
+    flex:1;
+    margin-bottom: 20px;
+    flex-direction:row;
+
+}
+.guest_img{
+    flex: 0.3;
+    background-size: cover;
+    margin:10px;
+
+}
+.guest_img>img{
+    margin-left:19px; 
+    margin-top:19px; 
+    width:150px; 
+    height:150px;
+}
+.guest_text{
+    flex: 1;
+    padding: 20px;
+}
+.background_1{
+    background-image: url("./images/back_img_1.jpg");
+}
+.background_2{
+    background-image: url("./images/back_img_2.png");
+}
+.background_3{
+    background-image: url("./images/back_img_3.jpg");
+}
+.background_4{
+    background-image: url("./images/back_img_4.jpg");
+}
+
+.box{
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: white;
+}
